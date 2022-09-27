@@ -1,0 +1,251 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    margin:0;
+}
+
+main {
+    padding:36px;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    /* position: absolute; */
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    height: 65px;
+    /* width: 100%; */
+    padding:20px;
+    color:white;
+}
+
+.header-box img {
+    height:50px;
+    margin-left:10px;
+}
+
+.header-box h1 {
+    font-size: 1.25rem;
+    margin-right: auto;
+    margin-left:10px;
+}
+
+.header-box h4 {
+    font-size: 0.75rem;
+    font-weight: 500;
+    margin-right: 50px;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap:17px;
+}
+
+.input-box {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.button {
+    color:#ffffff;
+    border:none;
+    cursor:pointer;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    grid-column: 1 / -1;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+}
+.counter-box {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-items: center;
+    height: 20vh;
+    
+}
+
+.counter-display {
+    background-color: black;
+    color:chartreuse;
+    height:50px;
+    width:50px;
+    border-radius: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.counter-display-alt {
+    background-color:darkred;
+    color:white;
+    height:50px;
+    width:50px;
+    border-radius: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.minus {
+    margin-top:40px;
+    background-color: crimson;
+    border-radius: 25px;
+    height:25px;
+    width:25px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.plus {
+    margin-top:40px;
+    background-color: greenyellow;
+    border-radius: 25px;
+    height:25px;
+    width:25px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.comments-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.input-box2 {
+    background-color:antiquewhite;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+}
+
+.comment-button {
+    margin-top: 10px;
+    background-color:honeydew;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+    height: 25px;
+}
+
+.each-comment {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.box-style {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: aqua;
+    display:inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.box-style-alt {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: darkred;
+    display:inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.addSquare-button {
+    background-color: chartreuse;
+    height: 50px;
+    width:50px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.deleteSquare-button {
+    background-color:fuchsia;
+    height: 50px;
+    width:50px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.new-form {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height:25vh;
+}
+
+
+
+
+
+.meme {
+    position: relative;
+}
+
+.meme--image {
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
